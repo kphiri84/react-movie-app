@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.MovieApp {
+  width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.MovieApp h1 {
+  text-align: center;
+}
+
+.MovieApp .form-data {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.MovieApp .form-data label {
+  display: inline-block;
+  width: 75px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.MovieApp .form-data input:not([type="submit"]) {
+  flex-grow: 1;
+}
